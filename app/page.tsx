@@ -12,10 +12,10 @@ export default function Home() {
           <span className="text-sm font-medium text-primary">Employee Wellbeing Tracker</span>
         </div>
         <h1 className="text-5xl font-bold text-primary mb-4 leading-tight">
-          How's Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Team Feeling</span> Today?
+          How&apos;s Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Team Feeling</span> Today?
         </h1>
         <p className="text-lg text-muted-foreground mb-8">
-          Foster a happier workplace by understanding your team's emotions. 
+          Foster a happier workplace by understanding your team&apos;s emotions. 
           Simple, anonymous, and insightful mood tracking for better work environments.
         </p>
         <div className="flex gap-6 justify-center"> 

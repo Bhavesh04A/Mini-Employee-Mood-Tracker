@@ -24,7 +24,7 @@ export default function MoodPage() {
   const [allMoods, setAllMoods] = useState<MoodSubmission[]>([]);
   const [isLoading, setIsLoading] = useState(false);
 
-  // Fetch all moods when component mounts
+  
   useEffect(() => {
     const fetchMoods = async () => {
       setIsLoading(true);
@@ -41,7 +41,7 @@ export default function MoodPage() {
     fetchMoods();
   }, []);
 
-  // Filter moods by the current user's name
+  
   const userMoods = name ? allMoods.filter(mood => mood.name === name) : [];
 
   async function handleSubmit(e: React.FormEvent) {
@@ -83,7 +83,7 @@ export default function MoodPage() {
   function resetForm() {
     setSelected("");
     setComment("");
-    // Keep the name for convenience
+    
   }
 
   return (

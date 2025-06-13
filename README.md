@@ -27,5 +27,5 @@ A full-stack Next.js 14 application to track employee moods.
 
 ## Deploy
 
-Hosted on Vercel: [your-link]
+Hosted on Vercel: mini-employee-mood-tracker-b8wb.vercel.app
 
